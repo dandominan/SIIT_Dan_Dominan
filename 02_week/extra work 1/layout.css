@@ -1,0 +1,11 @@
+main{display:flex;
+    justify-content: center;}
+
+.list{width: 250px;
+     margin:10px;
+     border-right:3px solid rgb(209, 199, 199);}
+p{width: 500px;
+ justify-content: center;}
+img{width: 350px;
+    border-radius: 175px;}
+table{justify-content: flex-end;}
