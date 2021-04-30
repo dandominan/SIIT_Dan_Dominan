@@ -1,0 +1,17 @@
+header{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.main-header{
+    width: 1000px;
+    height: 40px;
+}
+.buttons{
+    justify-content: flex-start;
+}
+p{
+   font-size: 40px;
+}
+  
