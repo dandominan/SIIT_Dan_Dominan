@@ -1,9 +1,15 @@
 h1{
     font-style: italic;
+    text-align: center;
+    
+}
+
+h1, h2, p {
+    color :#4a4542;
 }
 
 img{
-    width: 50%;;
+    width: 40%;
 }
 
 span{
@@ -11,8 +17,29 @@ span{
 }
 
 .img .list {
-    display: inline-block;
-    /* align-items: center; */
-    /* display: flex; */
+    display: flex;
+    align-items: stretch;
+}
+.list_intro li {
+     padding: 5px;
+ }
 
+.list_intro{
+    list-style-type: none;
+    padding-bottom: 7px ;
+}
+
+.description {
+    text-align: center;
+    background-color:#eeeeee ;
+    padding: 20 20;
+    margin: 0;
+}
+
+.list2 img{
+    width: 30%;
+}
+
+.list2{
+   
 }
