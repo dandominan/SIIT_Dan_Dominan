@@ -1,17 +1,62 @@
 header{
+    
+    position:fixed;
+    width:97.5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: purple solid 5px; */
+    background-color: rgb(204, 95, 95);
+    
+}
+
+
+.title{
+    font-size: 30px;
+    font-weight:400;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: green solid  2px; */
+    max-width: 300px;
+}
+
+.buttons{
     display:flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 150px;px;
+    /* border: greenyellow solid 2px; */
+}
+button{
+
+    /* background-color: tomato; */
+}
+body{
+    /* border: rgb(231, 7, 45) 5px solid; */
+    
+}
+.page{
+    display:flex;
+    padding-top: 60px;
+    /* border: solid brown 7px; */
     justify-content: center;
-    align-items: flex-start;
+}
+.article1{
+    /* border: black solid 2px; */
+    max-width:350px;
+    
+}
+.article2{
+    /* border: black solid 2px; */
+
+   max-width: 350px;
 
 }
-.main-header{
-    width: 1000px;
-    height: 40px;
+
+footer{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    display:flex;
+    justify-content: space-around;
+    /* border: purple solid 5px; */
+    background-color: grey;
 }
-.buttons{
-    justify-content: flex-start;
-}
-p{
-   font-size: 40px;
-}
-  
