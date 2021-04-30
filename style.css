@@ -1,0 +1,18 @@
+h1{
+    font-style: italic;
+}
+
+img{
+    width: 50%;;
+}
+
+span{
+    font-weight: bold; 
+}
+
+.img .list {
+    display: inline-block;
+    /* align-items: center; */
+    /* display: flex; */
+
+}
