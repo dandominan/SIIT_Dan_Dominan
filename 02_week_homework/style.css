@@ -1,12 +1,23 @@
+header{
+    
+    position:fixed;
+    width:97.5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: purple solid 5px; */
+    background-color: rgb(204, 95, 95);   
+}
+
 h1{
     font-style: italic;
     text-align: center;
-    padding: 25px 25px;
+    padding: 50px 25px;
     
 }
 
 body {
     color :#4a4542;
+    font-family: sans-serif;
 }
 
 img{
@@ -24,7 +35,6 @@ span{
     /* flex-grow: 0; */
     /* flex-basis: 500px; */
   
-
 }
 .list_intro li {
      padding: 5px;
@@ -42,25 +52,19 @@ span{
 }
 
 .text_area{
-    
-    width: 300px;
+    flex-grow: 0;
+    flex-basis: 1100px;
 }
 
 .description {
     text-align: center;
     background-color:#eeeeee ;
-    max-width: 100%;
-    padding: 20 20;
+    display: flex ;
+    justify-content: center;
+    align-items:center;
     
 }
 
-.intro .description {
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-
-}
 
 .list2 img{
      width: 20%;
@@ -79,5 +83,15 @@ justify-content: center;
 .list2{
     display: flex ;
     justify-content: center;
-    align-items:center
+    align-items:center;
+}
+
+footer{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    display:flex;
+    justify-content: space-around;
+    /* border: purple solid 5px; */
+    background-color: grey;
 }
