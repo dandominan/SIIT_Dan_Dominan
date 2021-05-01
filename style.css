@@ -1,6 +1,7 @@
 h1{
     font-style: italic;
     text-align: center;
+    padding: 25px 25px;
     
 }
 
@@ -20,7 +21,9 @@ span{
 .img .list {
     
     flex-direction: row;
-    flex: 1;
+    /* flex-grow: 0; */
+    /* flex-basis: 500px; */
+  
 
 }
 .list_intro li {
@@ -29,27 +32,52 @@ span{
 
 .list_intro{
     list-style-type: none;
-    padding-bottom: 7px ;
+    padding:10px 7px ;
 }
 
 .intro{
     display: flex ;
+    justify-content: center;
+    align-items:center
 }
 
+.text_area{
+    
+    width: 300px;
+}
 
 .description {
     text-align: center;
     background-color:#eeeeee ;
+    max-width: 100%;
     padding: 20 20;
-    margin: 0;
+    
+}
+
+.intro .description {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
 }
 
 .list2 img{
-    width: 20%;
+     width: 20%;
+     flex-grow: 0;
+    flex-basis: 200px; 
+     
 }
 
+.list2 li{
+    padding:5px 5px;
+    list-style-type: circle;
+  
+}
+
+    
 .list2{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
+    display: flex ;
+    justify-content: center;
+    align-items:center
 }
