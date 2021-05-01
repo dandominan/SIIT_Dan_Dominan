@@ -4,12 +4,13 @@ h1{
     
 }
 
-h1, h2, p {
+body {
     color :#4a4542;
 }
 
 img{
-    width: 40%;
+    width: 60%;
+    align-items: center;
 }
 
 span{
@@ -17,8 +18,10 @@ span{
 }
 
 .img .list {
-    display: flex;
-    align-items: stretch;
+    
+    flex-direction: row;
+    flex: 1;
+
 }
 .list_intro li {
      padding: 5px;
@@ -29,6 +32,11 @@ span{
     padding-bottom: 7px ;
 }
 
+.intro{
+    display: flex ;
+}
+
+
 .description {
     text-align: center;
     background-color:#eeeeee ;
@@ -37,9 +45,11 @@ span{
 }
 
 .list2 img{
-    width: 30%;
+    width: 20%;
 }
 
 .list2{
-   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
 }
