@@ -1,0 +1,92 @@
+header{
+    
+    position:fixed;
+    width:97.5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: purple solid 5px; */
+    background-color: rgb(204, 95, 95);   
+}
+
+
+
+h1{
+    padding:10% 0%;
+    color:gray;
+    font-style: italic;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  
+}
+
+
+#head-p {
+    color: grey;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    padding: 0%;
+    border-color: blue;
+    line-height:  1.5;
+  
+}
+.row p {
+    color: grey;
+    /* display: flex ;
+    justify-content: center;
+    align-items:center; */
+
+}
+
+.card{
+    border-style: ridge; 
+    border-color:rgb(235, 243, 243);
+    padding: 10px 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.row{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+td{
+    color: grey;
+    padding: 5px;
+}
+
+th{
+    font-style: italic;
+    font-size: 20px;
+    padding:20px ;
+}
+
+table{
+    width: 50%; 
+    margin-left:30px; 
+    /* margin-right:25%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+} 
+
+
+
+footer{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    display:flex;
+    justify-content: space-around;
+    /* border: purple solid 5px; */
+    background-color: grey;
+}
+
+/* prices page */
+
+/* pricing */
+
