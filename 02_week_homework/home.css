@@ -33,24 +33,54 @@ body{
     /* border: rgb(231, 7, 45) 5px solid; */
     
 }
+
+span{
+    font-weight: bold;
+}
 .page{
     display:flex;
+    flex-direction: column;
     padding-top: 60px;
     /* border: solid brown 7px; */
     justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }
+
+h2{
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
 .article1{
+    border-style: ridge; 
+    border-color:rgb(235, 243, 243);
     display:flex;
     /* border: black solid 2px; */
-    max-width:350px;
-    flex-direction: column;
-
-
+    max-width:700px;
+    flex-direction: row;
+    justify-content: space-evenly ;
     
 }
-img{
- /* border: red solid 3px;  */
 
+.article2{
+    /* border: black solid 2px; */
+    border-style: ridge; 
+    border-color:rgb(235, 243, 243);
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+
+}
+
+.intro{
+    padding-top: 10px;
+}
+img{
+
+ width: 30%;
+ 
 }
 h1{
     
@@ -60,14 +90,10 @@ h1{
     max-height: 30px;
     
 }
-.article2{
-     /* border: black solid 2px; */
 
-   max-width: 350px;
-
-}
 
 footer{
+    margin-top: 200px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-style: italic;
@@ -77,7 +103,9 @@ footer{
     background-color: grey;
 }
 a:link{
-    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    /* text-decoration: none;
     font-family:sans-serif;
     font-weight: bolder;
     font-size: 2em;
@@ -88,7 +116,7 @@ a:link{
     margin-right:0;
     color: black;
     display:flex;
-    justify-content: center;
+    justify-content: center; */
     /* border: pink solid 3px; */
    
 }
