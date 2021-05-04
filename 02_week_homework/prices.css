@@ -87,9 +87,11 @@ table{
 }
 
 
-
-
-/* prices page */
-
-/* pricing */
-
+footer{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-style: italic;
+    display:flex;
+    justify-content: space-around;
+    /* border: purple solid 5px; */
+    background-color: grey;}
