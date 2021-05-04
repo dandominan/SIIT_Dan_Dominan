@@ -1,28 +1,15 @@
-header{
-    
-    position:fixed;
-    width:97.5%;
-    display: flex;
-    justify-content: space-between;
-    /* border: purple solid 5px; */
-    background-color: rgb(204, 95, 95);   
-}
-
 h1{
     font-style: italic;
     text-align: center;
-    padding: 50px 25px;
     
 }
 
-body {
+h1, h2, p {
     color :#4a4542;
-    font-family: sans-serif;
 }
 
 img{
-    width: 60%;
-    align-items: center;
+    width: 40%;
 }
 
 span{
@@ -30,11 +17,8 @@ span{
 }
 
 .img .list {
-    
-    flex-direction: row;
-    /* flex-grow: 0; */
-    /* flex-basis: 500px; */
-  
+    display: flex;
+    align-items: stretch;
 }
 .list_intro li {
      padding: 5px;
@@ -42,50 +26,23 @@ span{
 
 .list_intro{
     list-style-type: none;
-    padding:10px 7px ;
-}
-
-.intro{
-    display: flex ;
-    justify-content: center;
-    align-items:center
-}
-
-.text_area{
-    flex-grow: 0;
-    flex-basis: 1100px;
+    padding-bottom: 7px ;
 }
 
 .description {
     text-align: center;
     background-color:#eeeeee ;
-    display: flex ;
-    justify-content: center;
-    align-items:center;
-    
+    padding: 20 20;
+    margin: 0;
 }
-
 
 .list2 img{
-     width: 20%;
-     flex-grow: 0;
-    flex-basis: 200px; 
-     
+    width: 30%;
 }
 
-.list2 li{
-    padding:5px 5px;
-    list-style-type: circle;
-  
-}
-
-    
 .list2{
-    display: flex ;
-    justify-content: center;
-    align-items:center;
+   
 }
-
 footer{
     font-family: 'Trebuchet MS';
     font-weight: bold;
@@ -94,5 +51,3 @@ footer{
     justify-content: space-around;
     /* border: purple solid 5px; */
     background-color: grey;
-}
-
