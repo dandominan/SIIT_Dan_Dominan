@@ -1,7 +1,7 @@
 header{
     
     position:fixed;
-    width:97.5%;
+    width:99%;
     display: flex;
     justify-content: space-between;
     /* border: purple solid 5px; */
@@ -41,7 +41,7 @@ body{
 }
 .article1{
     display:flex;
-    border: black solid 2px; */
+    /* border: black solid 2px; */
     max-width:350px;
     flex-direction: column;
 
@@ -49,19 +49,19 @@ body{
     
 }
 img{
-    border: red solid 3px;
+ /* border: red solid 3px;  */
 
 }
 h1{
     
     display:flex;
     justify-content: center;
-    border: pink solid 3px;
+    /* border: pink solid 3px; */
     max-height: 30px;
     
 }
 .article2{
-     border: black solid 2px; */
+     /* border: black solid 2px; */
 
    max-width: 350px;
 
@@ -81,6 +81,7 @@ a:link{
     font-family:sans-serif;
     font-weight: bolder;
     font-size: 2em;
+    font-style:italic;
     margin-top:0.67em;
     margin-bottom:0.67em;
     margin-left:0;
@@ -88,7 +89,7 @@ a:link{
     color: black;
     display:flex;
     justify-content: center;
-    border: pink solid 3px;
+    /* border: pink solid 3px; */
    
 }
 a:visited{
@@ -103,7 +104,7 @@ a:visited{
     color:black;
     display:flex;
     justify-content: center;
-    border: pink solid 3px;
+    /* border: pink solid 3px; */
 
 }
 
