@@ -1,12 +1,12 @@
 header{
     
     position:fixed;
-    width:97.5%;
+    width:99%;
     display: flex;
     justify-content: space-between;
     /* border: purple solid 5px; */
-    background-color: rgb(204, 95, 95);   
-}
+    background-color: rgb(204, 95, 95);}
+    
 
 
 
@@ -68,6 +68,7 @@ table{
     margin-left:auto; 
     margin-right:auto; 
     width:100%;
+    text-align:center;
 
 } 
 
@@ -75,19 +76,23 @@ table{
     width: 800px; 
     padding: 20px 20px;
     margin: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     
 }
 
 .coloana{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;  */
+    justify-content: center; 
     align-items: center;
 
 }
 
 
 footer{
+    margin-top: 100px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-style: italic;
