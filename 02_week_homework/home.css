@@ -31,7 +31,7 @@ button{
 }
 body{
     /* border: rgb(231, 7, 45) 5px solid; */
-    
+    min-height: 100vh;
 }
 
 span{
@@ -93,7 +93,7 @@ h1{
 
 
 footer{
-    margin-top: 200px;
+    margin-top: 235px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-style: italic;
@@ -124,7 +124,7 @@ a:visited{
     text-decoration: none;
     font-family:sans-serif;
     font-weight: bolder;
-    font-size: 2em;
+    /* font-size: 2em; */
     margin-top:0.67em;
     margin-bottom:0.67em;
     margin-left:0;

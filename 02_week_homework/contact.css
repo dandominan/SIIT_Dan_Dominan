@@ -65,3 +65,16 @@ footer{
     /* border: purple solid 5px; */
     background-color: grey;
 }
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 40px;
+}
+input{
+    margin-top: 20px;
+}
+textarea{
+    margin-top: 60px;
+}
