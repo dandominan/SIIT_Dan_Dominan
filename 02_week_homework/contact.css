@@ -1,13 +1,4 @@
-header{
 
-    
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    /* border: purple solid 5px; */
-    background-color: rgb(204, 95, 95);
-    
-}
 .title{
     font-size: 30px;
     font-weight:400;
@@ -25,7 +16,7 @@ header{
 }
 body{
     /* border: green 5px solid; */
-    display:flex;
+    display:flex; 
     justify-content: space-between;
     align-items:center;
     min-height:100vh;
@@ -53,18 +44,7 @@ form{
    align-items:center;
    justify-content: center; 
 }
-footer{
-    height: 40px;
-    width: 100%;
-    font-family: 'Trebuchet MS';
-    font-weight: bold;
-    font-style: italic;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    /* border: purple solid 5px; */
-    background-color: grey;
-}
+
 form{
     display:flex;
     flex-direction: column;

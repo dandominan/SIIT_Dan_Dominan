@@ -1,11 +1,11 @@
-header{
+ /* header{
     position:fixed;
     width:99%;
     display: flex;
     justify-content: space-between;
-    /* border: purple solid 5px; */
+    border: purple solid 5px;
     background-color: rgb(204, 95, 95);    
-}
+}  */
 
 .title{
     font-size: 30px;
@@ -24,6 +24,7 @@ header{
 }
 
 body{
+    
     /* border: rgb(231, 7, 45) 5px solid; */
     min-height: 100vh;
 }
@@ -41,6 +42,8 @@ span{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    margin-bottom:230px;
+
 }
 
 h2{
@@ -83,16 +86,16 @@ h1{
     max-height: 30px;  
 }
 
-footer{
+/* footer{ 
     margin-top: 235px;
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-style: italic;
     display:flex;
     justify-content: space-around;
-    /* border: purple solid 5px; */
+    border: purple solid 5px; 
     background-color: grey;
-}
+} */
 
 a:link{
     font-weight: bold;

@@ -1,12 +1,12 @@
-header{
+ /* header{
 
     position:fixed;
     width:99%;
     display: flex;
     justify-content: space-between;
-    /* border: purple solid 5px; */
+    border: purple solid 5px; 
     background-color: rgb(204, 95, 95);   
-}
+} */
 
 h1{
     font-style: italic;
@@ -76,15 +76,15 @@ span{
     align-items:center;
 }
 
-footer{
+/* footer{ 
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-style: italic;
     display:flex;
     justify-content: space-around;
-    /* border: purple solid 5px; */
+     border: purple solid 5px; 
     background-color: grey;
-}
+}*/
 
 .title{
     font-size: 30px;
