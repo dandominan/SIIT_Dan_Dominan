@@ -28,8 +28,8 @@ span{
 }
 
 .page{
-    display:flex;
-    flex-direction: column;
+     display:flex; 
+    /* flex-direction: column; */
     padding-top: 60px;
      border: solid brown 7px; 
     justify-content: center;
@@ -40,29 +40,34 @@ span{
 }
 
 h2{
+    border: green solid 2px;
     padding-top: 0px;
     margin-top: 5px;
 }
-
+.articles{
+    border: goldenrod solid 4px;
+    display:flex;
+    
+}
 .article1{
     border-style: ridge; 
     border-color:rgb(235, 243, 243);
     display:flex;
     border: black solid 2px;
-    max-width:700px;
-     flex-direction: row; 
+    width:350px;
+    /* flex-direction: row;  */
     justify-content: space-evenly ;  
 }
 
-.article2{
-    /* border: black solid 2px; */
+ /* .article2{ 
+    border: black solid 2px;
     border-style: ridge; 
     border-color:rgb(235, 243, 243);
-  max-width: 700px;
+  max-width: 700px; 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly ;
-}
+}*/
 
 .intro{
     padding-top: 10px;
@@ -75,7 +80,7 @@ img{
 h1{ 
     display:flex;
     justify-content: center;
-    /* border: pink solid 3px; */
+    border: pink solid 3px;
     max-height: 30px;  
 }
 
