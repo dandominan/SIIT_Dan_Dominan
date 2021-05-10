@@ -18,8 +18,9 @@
 
 body{
     
-    /* border: rgb(231, 7, 45) 5px solid; */
+    border: rgb(231, 7, 45) 5px solid;
     min-height: 100vh;
+    max-width:100%;
 }
 
 span{
@@ -29,7 +30,7 @@ span{
 
 .page{
      display:flex; 
-    /* flex-direction: column; */
+    flex-direction: wrap;
     padding-top: 60px;
      border: solid brown 7px; 
     justify-content: center;
@@ -47,6 +48,8 @@ h2{
 .articles{
     border: goldenrod solid 4px;
     display:flex;
+    flex-direction: row;
+
     
 }
 .article1{
