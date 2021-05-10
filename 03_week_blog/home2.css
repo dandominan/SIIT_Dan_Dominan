@@ -4,7 +4,7 @@ header{
     width:99%;
     display: flex;
     justify-content: space-between;
-    border: purple solid 5px;
+    /* border: purple solid 5px; */
     background-color: rgb(204, 95, 95); 
 }
 footer{ 
@@ -14,42 +14,42 @@ footer{
     font-style: italic;
     display:flex;
     justify-content: space-around;
-    border: purple solid 5px; 
+    /* border: purple solid 5px;  */
     background-color: grey;
 } 
 body{
-    border: green solid 3px;
+    border: white solid 3px; 
     
     
 }
 .page{
-    border: red solid 4px;
+ /* border: red solid 4px;  */
     margin-top: 55px;
 }
 
 img{
     width: 40%;
     height: 70%;
-    border: green 2px solid;
+    /* border: green 2px solid; */
     border-radius: 50%;
 
    }
 p{
-    border: grey solid 2px;
+    /* border: grey solid 2px; */
     margin-left: 5px;
 }
 h1{ 
     display:flex;
     justify-content: center;
-    border: pink solid 3px;
+    /* border: pink solid 3px; */
     max-height: 30px;  
 }
 .intro{
     padding-top: 10px;
-    border:blue solid 2px;
+    /* border:blue solid 2px; */
 }
 h2{
-    border: black solid 2px;
+    /* border: black solid 2px; */
     padding-top: 0px;
     margin-top: 5px;
     display:flex;
@@ -75,7 +75,7 @@ span{
         /* border: greenyellow solid 2px; */
     }
     .articles{
-        border: yellow solid 4px;
+        /* border: yellow solid 4px; */
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;
@@ -101,6 +101,15 @@ span{
    a:hover{
        color:grey;
    }
+
+   #btt{
+    /* border: blue solid; */
+    height:55px;
+    width:55px;
+    position: absolute;
+    top: 800px;
+    left:950px;
+}
     @media (max-width: 800px) {
         .articles{
             display:flex;
@@ -118,13 +127,21 @@ span{
             justify-content: center;
         }
         #footnote1{
-            border:chartreuse solid 2px;
+            /* border:chartreuse solid 2px; */
             margin:3px;
         
         }
         #footnote2{
-            border:chartreuse solid 2px;
+            /* border:chartreuse solid 2px; */
             margin:3px;
         }
-       
+        #btt{
+            /* border: blue solid; */
+            height:55px;
+            width:55px;
+            position: absolute;
+            top: 1700px;
+            left:300px;
+        }
+     
     }
