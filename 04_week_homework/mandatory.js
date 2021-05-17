@@ -46,3 +46,27 @@ console.log(noTimes.length)
 var nonUnique = array1.filter((x,y,z) => z.indexOf(x) !== y)
 nonUnique.sort((c,d) => c - d);
 console.log(nonUnique)
+
+// 6. 
+//var rows = 4;
+//var cols = 4;
+
+for(f=1; f<=1; f++)
+{
+    for (g=1; g<=2; g++)
+    {
+        document.write("0");
+        document.write("1")
+    }
+    document.write("<br/>")
+    
+}
+for(f=3; f<=4; f++)
+{
+    for(g=3; g<=4; g++)
+    {
+        document.write("1")
+        document.write("0")
+    }
+    document.write("<br/>")
+}
