@@ -1,0 +1,50 @@
+body{
+    border: solid pink 3px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+.newComment{
+    border: black solid 4px;
+    width: 50%;
+    height: 50px;
+    display:flex;
+    justify-content: space-around;
+    background-color:gray;
+}
+.username{
+    margin: 10px;
+}
+.text{
+    margin:10px;
+}
+h2{
+    margin-left:12px;
+}
+#add{
+    margin:10px;
+    background-color: brown;
+    border-radius: 24px;
+}
+.commentitem{
+    width: 100%;
+    background-color: lightblue
+}
+img{
+    width: 30px;
+    height:30px;
+    border-radius:50%
+    
+}
+#commentlist{
+    border: green solid 3px;
+    width: 50%;
+}
+#cont{
+    border:hotpink solid 3px;
+     display:flex;
+    align-items: center;
+ 
+
+}
