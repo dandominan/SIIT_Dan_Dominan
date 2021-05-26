@@ -1,65 +1,43 @@
-
-var username = ""
-var text =""
-var comment1 = {username: "Dannnnniel",
-text: "zzzzzzz"
-}
-
-/*var commentList = [
-    comment1,
-    {
-        username: "andrei",
-        text: "aaaaasd sasssssssssss"
-    },
-    {
-        username: "paul",
-        text: "ssssssssss ddddddddddd a"
-    }
-]
-*/
-
 function newCommentItemDiv (img, username, text){ 
+    
+    var commentItemDiv = document.createElement('div')
+    commentItemDiv.style.background= "rgb(185, 127, 123)";
+    commentItemDiv.style.borderRadius = "12px"
 
-var commentItemDiv = document.createElement('div')
-commentItemDiv.style.background = "lightblue";
-
-var img = document.createElement('img');
-img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWhL0iECSCzelorKSeX8VzL9xNPtxawbmuaZhfR5YFrh1DuX3sUaDhsf9fSYZafY7ziY&usqp=CAU";
-
-img.style.width = '30px';
-img.style.height = '30px';
-img.style.borderRadius = '50%';
+    var contt = document.createElement('div')
+    contt.style.display = "flex";
+    contt.style.alignItems="center";
+    contt.style.height="40px"
+    contt.style.marginLeft="3px"
 
 
-var commentUsernameH2 = document.createElement('h2')
-commentUsernameH2.innerText = username;
-
-var commentTextP = document.createElement('p')
-commentTextP.innerText = text;
-
-commentItemDiv.appendChild(img)
-commentItemDiv.appendChild(commentUsernameH2)
-commentItemDiv.appendChild(commentTextP)
-
-return commentItemDiv
-}
-
-var  commentListContainer = []
-for (var index = 0; index<commentListContainer.length; index++) {
-    var commentItem = commentList[index];
-
-    commentListContainer = document.getElementById('commentlist')
-    var commentItemDiv1 = newCommentItemDiv ("","")
-    commentListContainer.appendChild(commentItemDiv1)
-}
+    var imagine = document.createElement('img')
+    imagine.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWhL0iECSCzelorKSeX8VzL9xNPtxawbmuaZhfR5YFrh1DuX3sUaDhsf9fSYZafY7ziY&usqp=CAU";
+    
+    var commentUsernameH2 = document.createElement('h2')
+    commentUsernameH2.innerText = username;
+    
+    var commentTextP = document.createElement('p')
+    commentTextP.innerText = text;
+    commentTextP.style.marginLeft = "7px";
+    commentTextP.style.paddingBottom= "20px"
+    commentTextP.style.paddingLeft= "20px"
+    
+    commentItemDiv.appendChild(contt)
+    commentItemDiv.appendChild(commentTextP)
+    contt.appendChild(imagine)
+    contt.appendChild(commentUsernameH2)
+    
+    return commentItemDiv
+    }
 
 var btn = document.getElementById('add');
-var inputUsername = document.getElementById('username')
+var inputUsername = document.getElementById('user')
 var inputText = document.getElementById('comentariu')
-var img = document.getElementById('img')
+var img = document.getElementById('avatar')
 
-btn.addEventListener('click', function (event) {
+btn.addEventListener('click', function() {
     var commentListContainer = document.getElementById('commentlist')
-    var commentItemDiv1 = newCommentItemDiv (inputUsername.value, inputText.value);
+    var commentItemDiv1 = newCommentItemDiv (img.value, inputUsername.value, inputText.value);
     commentListContainer.appendChild(commentItemDiv1)
 })
