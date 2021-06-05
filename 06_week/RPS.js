@@ -29,6 +29,7 @@ function newGame() {
     var computerScore = document.getElementById("pc-score");
     var playAgain = document.getElementById('play-again');
     playAgain.setAttribute('disabled', 'disabled');
+
     playAgain.addEventListener('click', function () {
         userScore.innerText = 0;
         computerScore.innerText = 0;
@@ -47,9 +48,8 @@ newGame('play-again');
 
 function whoWins(pcChoice, userChoice) {
     var userScore = document.getElementById('user-score');
-    // userScore.innerText = userWins;
     var computerScore = document.getElementById("pc-score");
-    //computerScore.innerText = compWins;
+
 
     if (pcChoice === "rock" && userChoice === "paper") {
         document.getElementById('rezultat').innerText = "User wins"
@@ -108,7 +108,7 @@ function updateScoreBoard(winner) {
                 buttons[i].setAttribute('disabled', 'disabled');
             }
 
-            // userScore.innerText = 0;
+
         }
     }
     else if (winner === "PC wins") {
