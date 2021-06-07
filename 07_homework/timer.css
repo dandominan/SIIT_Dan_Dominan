@@ -1,0 +1,69 @@
+body{
+    /* border: solid green 5px; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 750px;
+}
+#timer{
+    /* border: solid blue; */
+    /* font-family: 'digital 7', sans-serif; */
+    font-family: orbitron;
+    color: red;
+    font-size: 90px;
+    display:flex;
+    justify-content: center;
+
+}
+
+#hours{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+#minutes{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+#seconds{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#buttons{
+    /* border: solid greenyellow; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.button{
+    height:50px;
+    width: 130px;
+    border-radius: 7px;
+    background-color: rgb(31, 154, 170);
+    font-size: 30px;
+    font-family: 'Orbitron';
+    margin:15px;
+    
+}
+#results-container{
+    border: solid green 5px;
+    min-height: 500px;
+    color: red;
+    font-family: lucida sans;
+    font-size: xx-large;
+    text-align: center;
+}
+#clear-btn{
+    border: solid;
+    width: 240px;
+}
+#clear-div{
+    display: flex;
+    justify-content: center;
+}
